@@ -39,8 +39,8 @@ public class LoginPage extends TestBase {
 		Password.sendKeys(password);
 		SignInButton.click();
 	}
-	public String getPageTitle() {
-		return driver.getTitle();
-	}
+	/*
+	 * public String getPageTitle() { return driver.getTitle(); }
+	 */
 
 }
