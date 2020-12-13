@@ -29,7 +29,7 @@ public class TestBase {
 	}
 	public static void initializeDriver() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abasi\\Desktop\\june2020POM\\drivers\\chromedriver3.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abasi\\eclipse-workspace\\BDD\\JkensProject\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
